@@ -1,0 +1,44 @@
+.searchBar_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 2px solid gray;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+}
+
+.searchWrapper {
+  background-color: gray;
+  font-size: 30px;
+}
+
+input {
+  text-align: center;
+  margin: 5px;
+}
+
+button {
+  margin: 5px;
+}
+
+.filterWrapper {
+  background-color: lightgray;
+  font-size: 20px;
+}
+
+select {
+  margin: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .searchWrapper {
+    font-size: 25px;
+  }
+
+  .filterWrapper {
+    font-size: 20px;
+  }
+}

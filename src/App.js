@@ -3,35 +3,6 @@ import "./App.css";
 import SearchBar from "./components/SearchBar/SearchBar";
 import BookList from "./components/BookList/BookList";
 
-// const arrayOfBooks = {
-//   items: [
-//     {
-//       volumeInfo: {
-//         title: "the first book",
-//         author: ["Author 1", "Author 2"],
-//         price: 40,
-//         description: "some description here",
-//         infoLink: "infoLinkhere",
-//         imageLinks: {
-//           thumbnail: "sourcelinkhere"
-//         }
-//       }
-//     },
-//     {
-//       volumeInfo: {
-//         title: "the second book",
-//         author: ["Author 3", "Author 4, Author 5"],
-//         price: 100,
-//         description: "some description here for the 2nd book",
-//         infoLink: "infoLinkhere",
-//         imageLinks: {
-//           thumbnail: "sourcelinkhere"
-//         }
-//       }
-//     }
-//   ]
-// };
-
 const formatQueryParams = param => {
   const queryItems = Object.keys(param).map(
     key => `${encodeURIComponent(key)}=${encodeURIComponent(param[key])}`
@@ -106,6 +77,7 @@ class App extends Component {
       saleInfo.push(elem.saleInfo);
       return elem["volumeInfo"];
     });
+    console.log(saleInfo);
     const display = this.state.error ? (
       <div className="error">{this.state.error}</div>
     ) : (

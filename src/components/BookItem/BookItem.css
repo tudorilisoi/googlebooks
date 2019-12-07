@@ -1,0 +1,24 @@
+.itemWrapper {
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+img {
+  width: 200px;
+  margin: 10px;
+}
+
+.info {
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 500px) {
+  img {
+    width: 150px;
+    height: 200px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
