@@ -1,3 +1,14 @@
+#GOOGLE BOOK SEARCH
+
+## Author: Anthony Clark Perfecto
+
+## Technology: HTML 5, CSS3, JavascriptES6, React, JSX
+
+## Summary: 
+-Allow users to look up books by entering either the name of the book or the author. 
+-Allow users to filter the search results by print type or book type.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
