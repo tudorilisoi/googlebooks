@@ -16,7 +16,7 @@ class SearchBar extends Component {
           <label htmlFor="search">
             Search:
             <input
-              type="text"
+              type="text" name="q"
               value={search}
               onChange={e => handleSearch(e.target.value)}
             />
